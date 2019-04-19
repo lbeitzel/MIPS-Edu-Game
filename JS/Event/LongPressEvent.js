@@ -1,7 +1,7 @@
 /**
- * This class will be called when a LongPress event is executed. 
+ * This class will be called when a LongPress event is executed.
  * And it determine what would happen if LongPress event is executed.
- * 
+ *
  * @class LongPressEvent
  * @extends {GameEvent}
  */
@@ -16,7 +16,7 @@ class LongPressEvent extends GameEvent {
         super("longPress",0);
     }
 
-  
+
 /**
  * This function determine what would happen if LongPress event is executed
  *
@@ -25,9 +25,9 @@ class LongPressEvent extends GameEvent {
  * @memberof LongPressEvent
  */
 excute(x,y){
-        alert("longPressEvent Class");
+        // alert("longPressEvent Class");
         console.log("longPressEvent Class");
-        
+
     }
-   
+
 }
